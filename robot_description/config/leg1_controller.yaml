@@ -1,0 +1,26 @@
+controller_manager: 
+  ros__parameters: 
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    leg1_controller: 
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+leg1_controller: 
+  ros__parameters: 
+    joints:
+      - hip_joint
+      - shoulder_joint
+      - knee_joint
+
+    command_interfaces: 
+      - position
+
+    state_interfaces: 
+      - position
+      - velocity
+
+
