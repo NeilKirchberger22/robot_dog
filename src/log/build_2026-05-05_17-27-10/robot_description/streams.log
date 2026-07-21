@@ -1,0 +1,33 @@
+[0.615s] Invoking command in '/home/neil/rb_dog_ws/src/robot_description': PYTHONPATH=/home/neil/rb_dog_ws/src/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neil/rb_dog_ws/src/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_description build --build-base /home/neil/rb_dog_ws/src/build/robot_description/build install --record /home/neil/rb_dog_ws/src/build/robot_description/install.log --single-version-externally-managed install_data
+[0.794s] running egg_info
+[0.794s] creating ../build/robot_description/robot_description.egg-info
+[0.795s] writing ../build/robot_description/robot_description.egg-info/PKG-INFO
+[0.795s] writing dependency_links to ../build/robot_description/robot_description.egg-info/dependency_links.txt
+[0.795s] writing entry points to ../build/robot_description/robot_description.egg-info/entry_points.txt
+[0.795s] writing requirements to ../build/robot_description/robot_description.egg-info/requires.txt
+[0.795s] writing top-level names to ../build/robot_description/robot_description.egg-info/top_level.txt
+[0.795s] writing manifest file '../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[0.796s] reading manifest file '../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[0.797s] writing manifest file '../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[0.797s] running build
+[0.797s] running build_py
+[0.797s] creating /home/neil/rb_dog_ws/src/build/robot_description/build
+[0.797s] creating /home/neil/rb_dog_ws/src/build/robot_description/build/lib
+[0.797s] creating /home/neil/rb_dog_ws/src/build/robot_description/build/lib/robot_description
+[0.797s] copying robot_description/__init__.py -> /home/neil/rb_dog_ws/src/build/robot_description/build/lib/robot_description
+[0.797s] running install
+[0.797s] running install_lib
+[0.798s] creating /home/neil/rb_dog_ws/src/install/robot_description/lib/python3.10/site-packages/robot_description
+[0.798s] copying /home/neil/rb_dog_ws/src/build/robot_description/build/lib/robot_description/__init__.py -> /home/neil/rb_dog_ws/src/install/robot_description/lib/python3.10/site-packages/robot_description
+[0.798s] byte-compiling /home/neil/rb_dog_ws/src/install/robot_description/lib/python3.10/site-packages/robot_description/__init__.py to __init__.cpython-310.pyc
+[0.798s] running install_data
+[0.798s] creating /home/neil/rb_dog_ws/src/install/robot_description/share/ament_index
+[0.798s] creating /home/neil/rb_dog_ws/src/install/robot_description/share/ament_index/resource_index
+[0.799s] creating /home/neil/rb_dog_ws/src/install/robot_description/share/ament_index/resource_index/packages
+[0.799s] copying resource/robot_description -> /home/neil/rb_dog_ws/src/install/robot_description/share/ament_index/resource_index/packages
+[0.799s] copying package.xml -> /home/neil/rb_dog_ws/src/install/robot_description/share/robot_description
+[0.799s] running install_egg_info
+[0.800s] Copying ../build/robot_description/robot_description.egg-info to /home/neil/rb_dog_ws/src/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info
+[0.801s] running install_scripts
+[0.815s] writing list of installed files to '/home/neil/rb_dog_ws/src/build/robot_description/install.log'
+[0.831s] Invoked command in '/home/neil/rb_dog_ws/src/robot_description' returned '0': PYTHONPATH=/home/neil/rb_dog_ws/src/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neil/rb_dog_ws/src/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_description build --build-base /home/neil/rb_dog_ws/src/build/robot_description/build install --record /home/neil/rb_dog_ws/src/build/robot_description/install.log --single-version-externally-managed install_data
