@@ -21,6 +21,6 @@ leg1_controller:
 
     state_interfaces: 
       - position
-      - velocity
+      
 
 

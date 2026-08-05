@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<library path="robot_hardware">
+  <class
+    name="robot_hardware/RobotHardware"
+    type="robot_hardware::RobotHardware"
+    base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Robot hardware for robotic dog
+    </description>
+  </class>
+</library>

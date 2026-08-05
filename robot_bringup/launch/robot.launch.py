@@ -12,6 +12,8 @@ def generate_launch_description():
     'controllers.yaml'
     )
 
+    
+
     controller_manager = Node(
         package= 'controller_manager', 
         executable='ros2_control_node',

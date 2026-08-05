@@ -58,11 +58,7 @@ class WalkNode(Node):
                 
                 pt = JointTrajectoryPoint()
                 pt.positions = angles
-                if counter == 10:
-                    pt.velocities = [0.0, 0.0, 0.0]
-                else: 
-                    pt.velocities = [0.5, 0.5, 0.5]
-                    
+                
                 t = 0.2*counter    
                 pt.time_from_start = Duration(
                     sec=int(t),
